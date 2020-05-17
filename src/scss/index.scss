@@ -8,21 +8,24 @@ $blk: black;
 @import "formula";
 @import "toolbar";
 @import "table";
+@import "dashboard";
 
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  background: $red;
+  font-size: 12px;
+  //background: $red;
 }
 
 .excel {
   position: relative;
+  color: #888;
+  height: 100%;
+  max-width: 100%;
+  font-size: .8rem;
 }
